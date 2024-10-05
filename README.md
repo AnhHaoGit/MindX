@@ -1,2 +1,2 @@
-# AnhHaoGitHub
+# MindX
  Web Projects
