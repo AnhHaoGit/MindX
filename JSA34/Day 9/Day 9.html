@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>LocalStorage</h1>
+    <ul>
+      <li>Lưu trữ dữ liệu ở trên trình duyệt</li>
+      <li>Các dữ liệu này sẽ không bị mất đi nếu ta refresh trang</li>
+      <li>
+        Môi khi mở các tab có đương dẫn tương ứng thì ta vẫn có thể truy cập vào
+        dữ liệu
+      </li>
+
+      <li>Lưu dữ liệu: localStorage.setItem("Key", "Value")</li>
+      <li>Lấy dữ liệu: localStorage.getItem("Key")</li>
+      <li>Xóa dữ liệu theo Key: localStorage.removeItem("Key")</li>
+      <li>Xóa toàn bộ dữ liệu: localStorage.clear()</li>
+    </ul>
+    <!-- Tạo 1 nút ở đây có nội dung là "Xóa Age", đặt cho nó 1 class tên là delete_age -->
+    <button class="delete_age">Xóa age</button>
+
+    <button id="delete_all">Xóa toàn bộ dữ liệu</button>
+    <script src="./Day 9.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../JSB41"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JSA34"
+	}
+}

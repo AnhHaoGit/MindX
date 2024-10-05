@@ -1,0 +1,36 @@
+.searchbar {
+    width: 101.2%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1e2e8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+input {
+    font-size: 25px;
+    border-radius: 30px;
+    width: 80%;
+    border: 2px solid #034c5f;
+    font-family: 'mali';
+    padding-left: 30px;
+}
+.searchbutton {
+    background-color: #ee6457;   
+    border: 1px solid #ee6457;
+    width: 5%;
+    height: 40px;
+    border-radius: 30px;
+    color: white;  
+    text-align: center;  
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.search:hover {
+    background-color: #f9c4ba;   
+    border: 1px solid #f9c4ba;
+}

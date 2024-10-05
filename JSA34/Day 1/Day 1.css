@@ -1,0 +1,45 @@
+.container {
+    width: 500px;
+    height: 300px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:  100px;
+}
+.box {
+    width: 100px;
+    height: 60px;
+    border: 3px solid black;
+}
+.button {
+    background-color:rgba(125, 42, 204, 0.903);
+    color: white;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    border-bottom: 5px solid rgb(99, 46, 148);
+    font-weight:500;
+    cursor: pointer;
+}
+.fa-plus {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.text {
+    margin-left: 10px;
+}
+.button:hover {
+    background-color: rgb(90, 41, 136);
+}
