@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 800px;
+    height: 270px;
+    margin: auto;
+    border: 1px solid black;
+    /* unlock flexbox */
+    display: flex;
+    /* justify-content: điều chỉnh các kích thước theo hàng ngang cho các phần tử con của thẻ cha */
+    justify-content: space-between;
+    /* align-items: điều chỉnh các kích thước theo hàng dọc cho các phần tử con của thẻ cha */
+    align-items: center;
+    /* flex-direction: xác định xem trình duyệt sẽ sắp xếp các phần tử con nằm ngang hay dọc */
+    flex-direction: row;
+    /* flex-wrap: xác định xem có gói phần tử con lại hay không trong trường hợp thu gọn kích thước của thẻ cha */
+    flex-wrap: wrap;
+}
+
+div {
+    border: 5px solid lightsteelblue;
+    margin-bottom: 10px;
+}

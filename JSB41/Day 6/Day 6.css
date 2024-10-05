@@ -1,0 +1,110 @@
+body {
+    height: 200vh;
+}
+ol {
+    margin-top: 70px;
+    z-index: 1;
+}
+h1 {
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    color:chocolate;
+    background-color: bisque;
+    z-index: 2;
+    width: 240px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+h1:hover {
+    background-color: burlywood;
+    width: 500px;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    position: relative;
+    z-index: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box1 {
+    background-color: red;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.box2 {
+    background-color: blue;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.box3 {
+    background-color: green;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.box4 {
+    background-color: yellow;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.box5 {
+    background-color: orange;
+    z-index: 1;
+}
+.box5:hover~.box1 {
+    top: 0px;
+    left: 0px;
+    transform: translate(0%,0%);
+}
+.box5:hover~.box2 {
+    top: 0px;
+    transform: translate(150%,0%);
+}
+.box5:hover~.box3 {
+    transform: translate(150%,150%);
+}
+.box5:hover~.box4 {
+    left: 0;
+    transform: translate(0%,150%);
+}
+.newbox {
+    margin-top: 10px;
+    width:300px;
+    height: 300px;
+    border: 1px solid black;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.newbox:hover {
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+.button {
+    margin-top: 10px;
+    display: block;
+}
+.heading {
+    margin-top: 10px;
+    width: 0px;
+    background-color: coral;
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-align: center;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.button:hover~.heading{
+    width: 300px;
+}
