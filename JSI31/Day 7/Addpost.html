@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="AddPost.css">
+
+  <script type="module">
+    import { v4 as uuidv4 } from "https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/esm-browser/index.js";
+
+    window.uuidv4 = uuidv4;
+  </script>
+</head>
+<body>
+  <nav class="navbar1">
+    <div class="navbar2">
+      <a href="Home.html" class="a">Home</a>
+      <a href="Login.html" class="a">Login</a>
+      <a href="Register.html" class="a">Register</a>
+      <a href="Admin.html" class="a">Admin</a>
+    </div>
+    <div class="account">
+      <p id="account_text_1"></p>
+      <b id="account_email"></b>
+      <b id="account_text_2"></b>
+      <img src="avatar.webp" alt="avatar" class="avatar" />
+      <button id='signout'></button>
+    </div>
+  </nav>
+  <div class="container">
+    <b>Make your day!</b>
+    <input placeholder="  title" type="text" id="titleInput">
+    <input placeholder="  image url" type="text" id="imgInput">
+    <textarea placeholder=" description" cols="50" rows="10" id="descriptionInput"></textarea>
+    <button id="addPostBTN">ADD</button>
+  </div>
+
+  <script type="module" src="AddPost.js"></script>
+</body>
+</html>
